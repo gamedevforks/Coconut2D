@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 2.8.1, 2013-09-23T19:19:19. -->
+<!-- Written by QtCreator 2.8.1, 2013-09-24T15:09:14. -->
 <qtcreator>
  <data>
   <variable>ProjectExplorer.Project.ActiveTarget</variable>
@@ -54,7 +54,7 @@
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Desktop Qt 5.1.1 clang 64bit</value>
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Desktop Qt 5.1.1 clang 64bit</value>
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">qt.511.clang_64.essentials_kit</value>
-   <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">1</value>
    <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
@@ -227,7 +227,7 @@
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">CocoEngine</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/Users/mobileFX/Coconut2D/native/Qt/CocoEngine/CocoEngine.pro</value>
-    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments">--fonts ./assets/fonts/blkchcry.ttf ./assets/fonts/calibri.ttf ./assets/fonts/Cleopatra.ttf ./assets/fonts/IrishUncialfabetaBold.ttf --scripts ./src/org/Coconut2D/Constants.js ./src/org/Coconut2D/Coconut.js ./src/org/Coconut2D/html5/HTML5.js ./src/org/Coconut2D/html5/HTMLCanvas.js ./src/org/Coconut2D/html5/HTMLEvents.js ./src/org/Coconut2D/html5/WebGL.js ./bin/org/Coconut2D/anim/CocoImage.jobj ./bin/org/Coconut2D/anim/CocoKeyFrame.jobj ./bin/org/Coconut2D/anim/CocoMatrix.jobj ./bin/org/Coconut2D/anim/CocoSequence.jobj ./bin/org/Coconut2D/anim/CocoSound.jobj ./bin/org/Coconut2D/anim/CocoTimeLabel.jobj ./bin/org/Coconut2D/anim/CocoTimeline.jobj ./bin/org/Coconut2D/anim/CocoClip.jobj ./bin/org/Coconut2D/ui/UIView.jobj ./bin/org/Coconut2D/ui/UIControlView.jobj ./bin/org/Coconut2D/ui/UIButtonView.jobj ./bin/org/Coconut2D/ui/UICheckboxView.jobj ./bin/org/Coconut2D/ui/UILabelView.jobj ./bin/org/Coconut2D/ui/UINavbarView.jobj ./bin/org/Coconut2D/ui/UIPageView.jobj ./bin/org/Coconut2D/ui/UIPickerView.jobj ./bin/org/Coconut2D/ui/UIScrollView.jobj ./bin/org/Coconut2D/ui/UITabView.jobj ./bin/org/Coconut2D/ui/UITextView.jobj ./src/org/Coconut2D/util/glu.js ./bin/org/Coconut2D/anim/CocoScene.jobj ./bin/org/Coconut2D/anim/CocoEngineState.jobj ./bin/org/Coconut2D/anim/CocoEngine.jobj ./bin/usr/GameEngine.jobj ./bin/usr/animations/Animation1.jobj ./bin/usr/states/StateAnim.jobj ./src/yiamiyo_testing.js</value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">CocoEngine.pro</value>
     <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
     <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseTerminal">false</value>

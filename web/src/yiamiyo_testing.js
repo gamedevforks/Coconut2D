@@ -421,9 +421,9 @@ window.addEventListener("load", function ()
 		}
 
 		
-		//var font = new fxFont(40, "blkchcry", " Helowrd!0123456789()");
-        //var wt = new fxWrappedText(gl, font, innerWidth, "right");
-        //wt.setText("Hello world(" + localStorage.i + ")!");
+		var font = new fxFont(40, "blkchcry", " Helowrd!0123456789()");
+        var wt = new fxWrappedText(gl, font, innerWidth, "right");
+        wt.setText("Hello world(" + localStorage.i + ")!");
         /*
 		var font2 = new CocoFont(20, "calibri", " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()/.,?><';\":]|[}{\\}]`~-");
 		var wt2 = new fxWrappedText(gl, font2, innerWidth, "center");
@@ -465,7 +465,7 @@ window.addEventListener("load", function ()
 		{
 			for (var i = e.changedTouches.length; i--;)
             localStorage.i = (parseInt(localStorage.i) + 1).toString();
-			//wt.setText("Hello world(" + localStorage.i + ")!");
+			wt.setText("Hello world(" + localStorage.i + ")!");
 			//alert("touchend(" + e.touches.length + ", " + e.changedTouches.length + ")");
 		});
 		window.addEventListener("touchcancel", function (e)
@@ -491,7 +491,7 @@ window.addEventListener("load", function ()
 			for (var i = Sprites.length; i--;)
 			Sprites[i].draw(gl);
 
-			//wt.draw(gl);
+			wt.draw(gl);
 			//wt2.draw(gl);
 			requestAnimationFrame(refresh);
 		}
