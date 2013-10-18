@@ -1,15 +1,16 @@
 #include <QApplication>
 #include <QDesktopWidget>
 #include <cstdlib>
+#include <basetsd.h>
 
 class fxDeviceWrapper;
 
-#import "Common.h"
-#import "fxCRL.h"
-#import "fxFile.h"
-#import "fxFontFace.h"
-#import "fxAudioStream.h"
-#import "fxDeviceWrapper.h"
+#include "Common.h"
+#include "fxCRL.h"
+#include "fxFile.h"
+#include "fxFontFace.h"
+#include "fxAudioStream.h"
+#include "fxDeviceWrapper.h"
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 int main(int argc, char *argv[])

@@ -1,0 +1,16 @@
+INPUT(
+./debug\main.o
+./debug\fxDeviceWrapper.o
+./debug\fxCRL.o
+./debug\fxFontFace.o
+./debug\fxAudioStream.o
+./debug\ArrayBuffer.o
+./debug\ArrayBufferView.o
+./debug\Audio.o
+./debug\DataView.o
+./debug\fxFont.o
+./debug\TypedArray.o
+./debug\WebGLRenderingContext.o
+./debug\XMLHttpRequest.o
+./debug\moc_fxDeviceWrapper.o
+);

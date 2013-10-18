@@ -352,7 +352,7 @@ void fxCRL::init(int argc, char *argv[], const fxScreen& scr, fxDeviceWrapper* d
     js_context = JSGlobalContextCreate(globalClass);
     
 #endif
-    
+
     jsStr_localStorage = fxJSAllocGlobalString("localStorage");
     
     jsStr_onreadystatechange = fxJSAllocGlobalString("onreadystatechange");

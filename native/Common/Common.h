@@ -84,17 +84,6 @@
 
 
 ////////////////////////////////////////////////////////////////
-#ifdef ENABLE_JPEG_SUPPORT
-	#undef FALSE
-	#undef TRUE
-    #include <jpeglib.h>
-#elif !DISABLE_JPEG_SUPPORT
-    #warning "Building without JPEG support!"
-#endif
-////////////////////////////////////////////////////////////////
-
-
-////////////////////////////////////////////////////////////////
 #ifdef ENABLE_OGG_SUPPORT
     #define AUDIO_SAMPLE_SIZE 2
     #define AUDIO_FORMAT_MONO AL_FORMAT_MONO16
@@ -133,6 +122,7 @@
 
 ////////////////////////////////////////////////////////////////
 #ifdef ENABLE_CURL_SUPPORT
+    #define CURL_STATICLIB
     #include <curl.h>
 #elif !DISABLE_CURL_SUPPORT
     #warning "Building without XMLHttpRequest support!"
@@ -152,6 +142,17 @@
     #endif
 #elif !DISABLE_OPENGL_SUPPORT
     #warning "Building without OpenGL support!"
+#endif
+////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////
+#ifdef ENABLE_JPEG_SUPPORT
+    #undef FALSE
+    #undef TRUE
+    #include <jpeglib.h>
+#elif !DISABLE_JPEG_SUPPORT
+    #warning "Building without JPEG support!"
 #endif
 ////////////////////////////////////////////////////////////////
 
